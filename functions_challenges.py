@@ -27,7 +27,7 @@ def miles_to_km(distance_in_miles: float):
     Returns
         - a float representing the distance in kilometers
     """
-    pass
+    return distance_in_miles*1.60934
 
 
 #############################################################################################################
@@ -45,7 +45,7 @@ def relay_distance(distance_per_runner: float, number_of_runners: float):
     Returns:
         - A float representing the total distance run.
     """
-    pass
+    return distance_per_runner * number_of_runners
 
 
 #############################################################################################################
