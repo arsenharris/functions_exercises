@@ -63,4 +63,7 @@ def relay_distance_input():
     Returns:
         - A float representing the total distance run.
     """
-    pass
+    number_of_runners=int(input("Enter number of runners:"))
+    distance_per_runner = float(input("Enter the distance each runner will run (in miles): "))
+    total_distance= (number_of_runners * distance_per_runner ) * 1.60934
+    return total_distance
