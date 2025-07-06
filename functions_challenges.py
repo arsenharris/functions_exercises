@@ -11,7 +11,7 @@ def get_float(prompt_string: str):
     Returns:
         - A float converted from the user's input
     """
-    pass
+    return float(input(prompt_string))
 
 
 #############################################################################################################
